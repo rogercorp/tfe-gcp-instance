@@ -15,7 +15,7 @@ variable "gcp_zone" {
   description = "GCP zone, e.g. us-east1-a"
   default = "us-west1-b"
 }
-east1
+
 variable "machine_type" {
   description = "GCP machine type"
   default = "n1-standard-1"
