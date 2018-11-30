@@ -8,12 +8,12 @@ variable "gcp_project" {
 
 variable "gcp_region" {
   description = "GCP region, e.g. us-east1"
-  default = "us-west1"
+  default = "us-west2"
 }
 
 variable "gcp_zone" {
   description = "GCP zone, e.g. us-east1-a"
-  default = "us-west1-b"
+  default = "us-west2-b"
 }
 
 variable "machine_type" {
@@ -28,5 +28,5 @@ variable "instance_name" {
 
 variable "image" {
   description = "image to build instance"
-  default = "debian-9-tf-1-9-v20181126"
+  default = "ubuntu-minimal-1810-cosmic-v20181119a"
 }
